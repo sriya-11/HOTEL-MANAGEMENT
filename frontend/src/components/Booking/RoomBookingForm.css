@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('http://wallpapercave.com/wp/wp1846075.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.room-booking-form {
+  max-width: 900px;
+  width: 93%;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.room-booking-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #1f0480;
+}
+
+.form-grid {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.form-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.room-booking-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 17px;
+  color: #010004;
+}
+
+.room-booking-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.room-booking-form input:focus {
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.2);
+}
+
+.room-booking-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.room-booking-form button:hover {
+  background: linear-gradient(135deg, #1a252f, #2c3e50);
+  transform: translateY(-2px);
+}
+
+
+.invoice-container {
+  max-width: 700px;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 2rem;
+  background: rgba(255,255,255,0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.invoice-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.invoice-container p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.invoice-container button {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 0.75rem 1.5rem;
+  background: #2c3e50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.invoice-container button:hover {
+  background: #1a252f;
+}
+

@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('http://wallpapercave.com/wp/wp1846075.jpg'); /* Replace with your own hotel-themed image */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  .login-form {
+    max-width: 400px;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+  
+
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    color: #1f0480;
+  }
+
+  .login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 17px;
+    color: #03000f;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  
+
+  .login-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background: linear-gradient(135deg,#1a252f);
+    transform: translateY(-2px);
+  }
+  

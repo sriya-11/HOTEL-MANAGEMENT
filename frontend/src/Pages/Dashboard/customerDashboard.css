@@ -1,0 +1,87 @@
+
+.customer-dashboard {
+  padding: 2rem;
+  margin-top: 3em;
+  /* min-height: 100vh; */
+  background: linear-gradient(135deg, #b39050, #c2e9fb); /* Cool blue gradient */
+  backdrop-filter: blur(5px); /* Light blur over entire dashboard */
+  -webkit-backdrop-filter: blur(5px);
+  color: #1a202c;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.customer-dashboard h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.customer-dashboard p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #501902;
+}
+
+.booking-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* GLASSMORPHIC CARD STYLE */
+.booking-card {
+  background: rgba(198, 160, 5, 0.25); /* Translucent */
+  border-radius: 20px;
+  padding: 2rem;
+  backdrop-filter: blur(10px); /* Blur inside card */
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  color: #1e293b;
+}
+
+.booking-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+.booking-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: #744100;
+  font-weight: 600;
+}
+
+.booking-card p {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.dashboard-message {
+  font-size: 1.3rem;
+  color: #fa9e13;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cancel-button {
+  margin-top: 1rem;
+  background-color: #983c3c;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  background-color: #821414;
+}

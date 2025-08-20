@@ -1,0 +1,47 @@
+body {
+    background: url('http://wallpapercave.com/wp/wp1846075.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.room-detail-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    color: #000;
+  }
+  
+  .room-images {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .room-images img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .book-now-button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .book-now-button:hover {
+    background-color: #005fa3;
+  }
+  
